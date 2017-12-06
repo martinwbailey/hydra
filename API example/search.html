@@ -1,0 +1,67 @@
+
+<h2>Search</h2>
+<div>
+    <form method="POST">
+        <fieldset>
+            <legend>Search fields</legend>
+            Term<br>
+            <textarea rows="4" cols="80" name="term"></textarea>
+
+            <br>
+            Database<br>
+
+            <select name="database">
+              <option value="embase">Embase (Ovid)</option>
+              <option value="amed">AMED (Ovid)</option>
+              <option value="hmic">HMIC (Ovid)</option>
+              <option value="psycinfo">PsycInfo (Proquest)</option>
+              <option value="medline">Medline (Proquest)</option>
+              <option value="bni">BNI (Proquest)</option>
+              <option value="cinahl">CINAHL (EBSCO)</option>
+              <option value="hbe">HBE (EBSCO)</option>
+              <option value="pubmed">PUBMED (NCBI)</option>
+            </select>
+
+            <br>
+            some common fields<br>
+            <input type="checkbox" name="fields" value="ti"/>title<br/>
+            <input type="checkbox" name="fields" value="ab"/>abstract<br/>
+            <input type="checkbox" name="fields" value="af"/>any field<br/>
+            <input type="checkbox" name="fields" value="au"/>author<br/>
+            <input type="checkbox" name="fields" value="is"/>issn<br/>
+            <input type="checkbox" name="fields" value="jn"/>journal name<br/>
+            <br>
+
+            Order by<br>
+            <input type="text" name="orderby" size="25">
+            <br><br>
+
+            Page size<br>
+            <select name="pagesize">
+                <option value="10">10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="250">250</option>
+                <option value="300">300</option>
+            </select>
+            <br><br>
+            Page Number<br>
+            <input type="text" name="pagenumber" value="1" maxlength="4" size="4">
+            <br><br>
+
+            From year<br>
+            <input type="text" name="fromyear" maxlength="4" size="4">
+            <br><br>
+
+            To year<br>
+            <input type="text" name="toyear" maxlength="4" size="4">
+            <br><br>
+
+
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</div>

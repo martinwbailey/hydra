@@ -1,0 +1,15 @@
+{  
+   "@context":{  
+      "hydra":"http://www.w3.org/ns/hydra/core#"
+   },
+   "@id":"/",
+   "@type":"EntryPoint",
+   "search":"/search",
+   "thesaurus":"/thesaurusroot",
+   "databases":"/databaselist",
+   "limits":"/limits",
+   "fields":"/fields",
+   "sortorders":"/sortorders",
+   "stopwords":"/stopwords",
+   "version":"0"
+}

@@ -1,0 +1,1259 @@
+{  
+   "@context":{  
+      "@vocab":"http://purl.org/spar/fabio/",
+      "co":"http://purl.org/co/",
+      "dcterms":"http://purl.org/dc/terms/",
+      "foaf":"http://xmlns.com/foaf/0.1/",
+      "frbr":"http://purl.org/vocab/frbr/core#",
+      "hydra":"http://www.w3.org/ns/hydra/context.jsonld",
+      "prism":"http://prismstandard.org/namespaces/basic/2.0/",
+      "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+      "xsd":"http://www.w3.org/2001/XMLSchema#"
+   },
+   "@id":"/search",
+   "@type":"Collection",
+   "diagnostic":{  
+      "jaqlquery":"monkey",
+      "nativequery":"monkey",
+      "rawquery":"monkey",
+      "responsetimes":[  
+         "515 milliseconds",
+         "649 milliseconds"
+      ]
+   },
+   "members":[  
+      {  
+         "@id":"29204057",
+         "@type":"ResearchPaper",
+         "dcterms:creator":[  
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Feng",
+               "foaf:givenName":"Lei",
+               "foaf:name":"Feng L",
+               "foaf:organization":"",
+               "hdas:initials":"L"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Cai",
+               "foaf:givenName":"Lei",
+               "foaf:name":"Cai L",
+               "foaf:organization":"",
+               "hdas:initials":"L"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"He",
+               "foaf:givenName":"Guo-Lin",
+               "foaf:name":"He GL",
+               "foaf:organization":"",
+               "hdas:initials":"GL"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Weng",
+               "foaf:givenName":"Jun",
+               "foaf:name":"Weng J",
+               "foaf:organization":"",
+               "hdas:initials":"J"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Li",
+               "foaf:givenName":"Yang",
+               "foaf:name":"Li Y",
+               "foaf:organization":"",
+               "hdas:initials":"Y"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Pan",
+               "foaf:givenName":"Ming-Xin",
+               "foaf:name":"Pan MX",
+               "foaf:organization":"",
+               "hdas:initials":"MX"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Jiang",
+               "foaf:givenName":"Ze-Sheng",
+               "foaf:name":"Jiang ZS",
+               "foaf:organization":"",
+               "hdas:initials":"ZS"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Peng",
+               "foaf:givenName":"Qing",
+               "foaf:name":"Peng Q",
+               "foaf:organization":"",
+               "hdas:initials":"Q"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Gao",
+               "foaf:givenName":"Yi",
+               "foaf:name":"Gao Y",
+               "foaf:organization":"",
+               "hdas:initials":"Y"
+            }
+         ],
+         "dcterms:title":"Novel D-galactosamine-induced cynomolgus monkey model of acute liver failure.",
+         "frbr:realization":{  
+            "@id":null,
+            "@type":"JournalArticle",
+            "abstract":"<strong>AIM:</strong> To establish a simplified, reproducible D-galactosamine-induced cynomolgus monkey model of acute liver failure having an appropriate treatment window.<br /><strong>METHODS:</strong> Sixteen cynomolgus monkeys were randomly divided into four groups (A, B, C and D) after intracranial pressure (ICP) sensor implantation. D-galactosamine at 0.3, 0.25, 0.20 + 0.05 (24 h interval), and 0.20 g/kg body weight, respectively, was injected via the small saphenous vein. Vital signs, ICP, biochemical indices, and inflammatory factors were recorded at 0, 12, 24, 36, 48, 72, 96, and 120 h after D-galactosamine administration. Progression of clinical manifestations, survival times, and results of H&E staining, TUNEL, and Masson staining were recorded.<br /><strong>RESULTS:</strong> Cynomolgus monkeys developed different degrees of debilitation, loss of appetite, and jaundice after D-galactosamine administration. Survival times of groups A, B, and C were 56 ± 8.7 h, 95 ± 5.5 h, and 99 ± 2.2 h, respectively, and in group D all monkeys survived the 144-h observation period except for one, which died at 136 h. Blood levels of ALT, AST, CK, LDH, TBiL, Cr, BUN, and ammonia, prothrombin time, ICP, endotoxin, and inflammatory markers [(tumor necrosis factor (TNF)-α, interleukin (IL)-1β, and IL-6)] significantly increased compared with baseline values in different groups (P < 0.05). Pathological results showed obvious liver cell necrosis that was positively correlated with the dose of D-galactosamine.<br /><strong>CONCLUSION:</strong> We successfully established a simplified, reproducible D-galactosamine-induced cynomolgus monkey model of acute liver failure, and the single or divided dosage of 0.25 g/kg is optimal for creating this model.",
+            "bibliographicdatabase":"PubMed",
+            "dcterms:identifier":"29204057",
+            "dcterms:language":"eng",
+            "frbr:partOf":{  
+               "@type":"JournalIssue",
+               "frbr:partOf":{  
+                  "@type":"JournalVolume",
+                  "frbr:partOf":{  
+                     "@type":"Journal",
+                     "dcterms:title":"World journal of gastroenterology",
+                     "prism:issn":"2219-2840"
+                  },
+                  "prism:volume":"23"
+               },
+               "prism:coverDate":"2017-11-14",
+               "prism:issueIdentifier":"42"
+            },
+            "hasPublicationYear":{  
+               "@type":"xsd:gYear",
+               "@value":"2017"
+            },
+            "hasURL":{  
+               "@type":"xsd:anyURI",
+               "@value":"/record/pubmed/29204057"
+            },
+            "hdas:publicationtypes":[  
+               {  
+                  "@type":"Journal Article"
+               }
+            ],
+            "hdas:publisherlocation":"United States",
+            "prism:doi":"10.3748/wjg.v23.i42.7572",
+            "prism:endingPage":"7583",
+            "prism:publicationDate":{  
+               "@type":"xsd:gYearMonth",
+               "@value":"2017-11"
+            },
+            "prism:startingPage":"7572"
+         },
+         "hasSubjectTerm":[  
+            {  
+               "@id":"Acute liver failure",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Artificial liver support systems",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Cynomolgus monkey",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"D-galactosamine",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Intracranial pressure",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            }
+         ]
+      },
+      {  
+         "@id":"29203142",
+         "@type":"ResearchPaper",
+         "dcterms:creator":[  
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Kinoshita",
+               "foaf:givenName":"Akihiro",
+               "foaf:name":"Kinoshita A",
+               "foaf:organization":"",
+               "hdas:initials":"A"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Higashino",
+               "foaf:givenName":"Masato",
+               "foaf:name":"Higashino M",
+               "foaf:organization":"",
+               "hdas:initials":"M"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Yoshida",
+               "foaf:givenName":"Koji",
+               "foaf:name":"Yoshida K",
+               "foaf:organization":"",
+               "hdas:initials":"K"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Aratani",
+               "foaf:givenName":"Yoshiyuki",
+               "foaf:name":"Aratani Y",
+               "foaf:organization":"",
+               "hdas:initials":"Y"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Kakuuchi",
+               "foaf:givenName":"Akito",
+               "foaf:name":"Kakuuchi A",
+               "foaf:organization":"",
+               "hdas:initials":"A"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Hanada",
+               "foaf:givenName":"Keisuke",
+               "foaf:name":"Hanada K",
+               "foaf:organization":"",
+               "hdas:initials":"K"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Takeda",
+               "foaf:givenName":"Hiroyuki",
+               "foaf:name":"Takeda H",
+               "foaf:organization":"",
+               "hdas:initials":"H"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Naganawa",
+               "foaf:givenName":"Atsushi",
+               "foaf:name":"Naganawa A",
+               "foaf:organization":"",
+               "hdas:initials":"A"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Matsuya",
+               "foaf:givenName":"Hidekazu",
+               "foaf:name":"Matsuya H",
+               "foaf:organization":"",
+               "hdas:initials":"H"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Ohmoto",
+               "foaf:givenName":"Kazuyuki",
+               "foaf:name":"Ohmoto K",
+               "foaf:organization":"",
+               "hdas:initials":"K"
+            }
+         ],
+         "dcterms:title":"Synthesis and evaluation of a potent, well-balanced EP2/EP3 dual agonist.",
+         "frbr:realization":{  
+            "@id":null,
+            "@type":"JournalArticle",
+            "abstract":"A highly potent and well-balanced dual agonist for the EP2 and EP3 receptors is described. Optimization of the lead compound was accomplished in consideration of the relative agonist activity against each EP subtype receptor and the pharmacokinetic profile. As the result, 2-[(2-{(1R,2R)-2-[(1E,4S)-5-cyclopentyl-4-hydroxy-4-methyl-1-penten-1-yl]-5-oxocyclopentyl}eth-yl)thio]-1,3-thiazole-4-carboxylic acid (10) showed excellent potency (human EC50 EP2 = 1.1 nM, EP3 = 1.0 nM) with acceptable selectivity over the EP1 and EP4 subtypes (>2000-fold). Further fine-tuning of compound 10 led to identification of ONO-8055 as a clinical candidate. ONO-8055 was effective at an extremely low dose (0.01 mg/kg, po, bid) in rats, and dose-dependently improved voiding dysfunction in a monkey model of underactive bladder (UAB). ONO-8055 is expected to be a novel and highly promising drug for UAB.",
+            "bibliographicdatabase":"PubMed",
+            "dcterms:identifier":"29203142",
+            "dcterms:language":"eng",
+            "frbr:partOf":{  
+               "@type":"JournalIssue",
+               "frbr:partOf":{  
+                  "@type":"JournalVolume",
+                  "frbr:partOf":{  
+                     "@type":"Journal",
+                     "dcterms:title":"Bioorganic & medicinal chemistry",
+                     "prism:issn":"1464-3391"
+                  }
+               },
+               "prism:coverDate":"2017-11-24"
+            },
+            "hasPublicationYear":{  
+               "@type":"xsd:gYear",
+               "@value":"2017"
+            },
+            "hasURL":{  
+               "@type":"xsd:anyURI",
+               "@value":"/record/pubmed/29203142"
+            },
+            "hdas:publicationtypes":[  
+               {  
+                  "@type":"Journal Article"
+               }
+            ],
+            "hdas:publisherlocation":"England",
+            "prism:doi":"10.1016/j.bmc.2017.11.035",
+            "prism:publicationDate":{  
+               "@type":"xsd:gYearMonth",
+               "@value":"2017-11"
+            }
+         },
+         "hasSubjectTerm":[  
+            {  
+               "@id":"Dual agonist",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"EP(2) receptor",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"EP(3) receptor",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Pharmacokinetics",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Prostaglandin",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Underactive bladder",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            }
+         ]
+      },
+      {  
+         "@id":"29199600",
+         "@type":"ResearchPaper",
+         "dcterms:creator":[  
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"McComas",
+               "foaf:givenName":"Alan J",
+               "foaf:name":"McComas AJ",
+               "foaf:organization":"",
+               "hdas:initials":"AJ"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Upton",
+               "foaf:givenName":"Adrian R M",
+               "foaf:name":"Upton ARM",
+               "foaf:organization":"",
+               "hdas:initials":"ARM"
+            }
+         ],
+         "dcterms:title":"The Migraine Aura: A Problem for Vision Theory?",
+         "frbr:realization":{  
+            "@id":null,
+            "@type":"JournalArticle",
+            "abstract":"The scintillating zigzag pattern that a migraine patient may see as an illusion before the onset of headache offers a unique investigative approach to visual mechanisms. The likeliest interpretation of these zigzags is that they are the spontaneous discharges of the orientation-selective neurons first described in the striate cortex by Hubel and Wiesel (Hubel DH, Wiesel TN. Receptive fields, binocular interaction and functional architecture in the cat's visual cortex. J Physiol (Lond). 1962 Jan;160:106-54; and Hubel DH, Wiesel TN. Receptive fields and functional architecture of monkey striate cortex. J Physiol (London). 1968 Mar;195(1):215-43). Although these cells appear to lie in rows in V1, as Hubel and Wiesel found, very few angles in the visual field are represented; this, and the coarseness of the representation, makes it unlikely that the cells act as feature detectors. The orientation-selective cells could, however, monitor the amount of light falling on the retina and thereby enable color constancy to be achieved. The cells may also serve as coarse movement detectors. The new model of cell organization in human V1 enables us to determine the approximate sizes of the receptive fields of the orientation-selective cells.",
+            "bibliographicdatabase":"PubMed",
+            "dcterms:identifier":"29199600",
+            "dcterms:language":"eng",
+            "frbr:partOf":{  
+               "@type":"JournalIssue",
+               "frbr:partOf":{  
+                  "@type":"JournalVolume",
+                  "frbr:partOf":{  
+                     "@type":"Journal",
+                     "dcterms:title":"Critical reviews in biomedical engineering",
+                     "prism:issn":"1943-619X"
+                  },
+                  "prism:volume":"44"
+               },
+               "prism:coverDate":"2016",
+               "prism:issueIdentifier":"5"
+            },
+            "hasPublicationYear":{  
+               "@type":"xsd:gYear",
+               "@value":"2016"
+            },
+            "hasURL":{  
+               "@type":"xsd:anyURI",
+               "@value":"/record/pubmed/29199600"
+            },
+            "hdas:publicationtypes":[  
+               {  
+                  "@type":"Journal Article"
+               }
+            ],
+            "hdas:publisherlocation":"United States",
+            "prism:doi":"10.1615/CritRevBiomedEng.2017020607",
+            "prism:endingPage":"355",
+            "prism:startingPage":"347"
+         }
+      },
+      {  
+         "@id":"29200543",
+         "@type":"ResearchPaper",
+         "dcterms:creator":[  
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Kemp",
+               "foaf:givenName":"Caralyn",
+               "foaf:name":"Kemp C",
+               "foaf:organization":"",
+               "hdas:initials":"C"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Thatcher",
+               "foaf:givenName":"Harriet",
+               "foaf:name":"Thatcher H",
+               "foaf:organization":"",
+               "hdas:initials":"H"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Farningham",
+               "foaf:givenName":"David",
+               "foaf:name":"Farningham D",
+               "foaf:organization":"",
+               "hdas:initials":"D"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Witham",
+               "foaf:givenName":"Claire",
+               "foaf:name":"Witham C",
+               "foaf:organization":"",
+               "hdas:initials":"C"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"MacLarnon",
+               "foaf:givenName":"Ann",
+               "foaf:name":"MacLarnon A",
+               "foaf:organization":"",
+               "hdas:initials":"A"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Holmes",
+               "foaf:givenName":"Amanda",
+               "foaf:name":"Holmes A",
+               "foaf:organization":"",
+               "hdas:initials":"A"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Semple",
+               "foaf:givenName":"Stuart",
+               "foaf:name":"Semple S",
+               "foaf:organization":"",
+               "hdas:initials":"S"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Bethell",
+               "foaf:givenName":"Emily J",
+               "foaf:name":"Bethell EJ",
+               "foaf:organization":"",
+               "hdas:initials":"EJ"
+            }
+         ],
+         "dcterms:title":"A protocol for training group-housed rhesus macaques (Macaca mulatta) to cooperate with husbandry and research procedures using positive reinforcement.",
+         "frbr:realization":{  
+            "@id":null,
+            "@type":"JournalArticle",
+            "abstract":"There has been increased recognition of the 3Rs in laboratory animal management over the last decade, including improvements in animal handling and housing. For example, positive reinforcement is now more widely used to encourage primates to cooperate with husbandry procedures, and improved enclosure design allows housing in social groups with opportunity to escape and avoid other primates and humans. Both practices have become gold standards in captive primate care resulting in improved health and behavioural outcomes. However, training individuals and social housing may be perceived as incompatible, and so it is important to share protocols, their outcomes and suggestions for planning and improvements for future uptake. Here we present a protocol with link to video for training rhesus macaques (Macaca mulatta) housed in single-male - multi-female breeding groups to sit at individual stations in the social enclosure. Our aim was that the monkeys could take part in welfare-related cognitive assessments without the need for removal from the group or interference by group members. To do this we required most individuals in a group to sit by individual stations at the same time. Most of the training was conducted by a single trainer with occasional assistance from a second trainer depending on availability. We successfully trained 61/65 monkeys housed in groups of up to nine adults (plus infants and juveniles) to sit by their individual stationing tools for >30 s. Males successfully trained on average within 30 min (2 training sessions); females trained on average in 1 h 52 min ± 13min (7.44 sessions), with rank (high, mid, low) affecting the number of sessions required. On average, dominant females trained in 1 h 26 min ± 16 min (5.7 sessions), mid ranked females in 1 h 52 min ± 20min (7.45 sessions), and subordinate females took 2 h 44 min ± 36 min (10.9 sessions). Age, group size, reproductive status, temperament, and early maternal separation did not influence the number of sessions a monkey required to reach criterion. We hope this protocol will be useful for facilities worldwide looking to house their animals in naturalistic social groups without impacting on animal husbandry and management.",
+            "bibliographicdatabase":"PubMed",
+            "dcterms:identifier":"29200543",
+            "dcterms:language":"eng",
+            "frbr:partOf":{  
+               "@type":"JournalIssue",
+               "frbr:partOf":{  
+                  "@type":"JournalVolume",
+                  "frbr:partOf":{  
+                     "@type":"Journal",
+                     "dcterms:title":"Applied animal behaviour science",
+                     "prism:issn":"0168-1591"
+                  },
+                  "prism:volume":"197"
+               },
+               "prism:coverDate":"2017-12"
+            },
+            "hasPublicationYear":{  
+               "@type":"xsd:gYear",
+               "@value":"2017"
+            },
+            "hasURL":{  
+               "@type":"xsd:anyURI",
+               "@value":"/record/pubmed/29200543"
+            },
+            "hdas:publicationtypes":[  
+               {  
+                  "@type":"Journal Article"
+               }
+            ],
+            "hdas:publisherlocation":"Netherlands",
+            "prism:doi":"10.1016/j.applanim.2017.08.006",
+            "prism:endingPage":"100",
+            "prism:publicationDate":{  
+               "@type":"xsd:gYearMonth",
+               "@value":"2017-12"
+            },
+            "prism:startingPage":"90"
+         },
+         "hasSubjectTerm":[  
+            {  
+               "@id":"3Rs",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Group training",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Macaque",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Positive reinforcement training",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Primates",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Stationing",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            }
+         ]
+      },
+      {  
+         "@id":"29200044",
+         "@type":"ResearchPaper",
+         "dcterms:creator":[  
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Boulton",
+               "foaf:givenName":"Martha A",
+               "foaf:name":"Boulton MA",
+               "foaf:organization":"",
+               "hdas:initials":"MA"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"O'Connell",
+               "foaf:givenName":"Kathleen A",
+               "foaf:name":"O'Connell KA",
+               "foaf:organization":"",
+               "hdas:initials":"KA"
+            }
+         ],
+         "dcterms:title":"Past Year Substance Use by Student Nurses.",
+         "frbr:realization":{  
+            "@id":null,
+            "@type":"JournalArticle",
+            "abstract":"<strong>PURPOSE:</strong> Nurses who abuse substances are a threat to patients, colleagues, society, and themselves. Research indicates that substance use often begins during undergraduate years. The purpose of this research was to identify rates of past year substance use by student nurses.<br /><strong>METHOD:</strong> A quantitative, cross-sectional, correlational design was used to examine past year substance use by student nurses and to determine whether substance use is related to age, gender, race, relationship status, ethnicity, country of birth, type of school program, and year in program. The convenience sample of National Student Nurses' Association members yielded 4,033 completed surveys. Students were asked about their past year substance use via Survey Monkey. Responses were analyzed through exploratory data analysis and logistic regression.<br /><strong>RESULTS:</strong> Binge drinking was reported by 61% of the student nurses; 18% reported using marijuana; 5% reported using illegal drugs, excluding marijuana; 8% reported using nonprescribed stimulants to enhance academic performance; and 10% reported using nonprescribed prescription pills. Students who were younger than 28 years old, White, male, born in this country, or single tended to report more substance misuse than other students.<br /><strong>CONCLUSIONS:</strong> The results suggest that student nurses tend to use fewer drugs than their college counterparts but are slightly more likely to binge drink. Further research is needed on the effect of substance education in the beginning of the nursing program and that continued throughout the program on student nurse substance use. Research on faculty's ability to identify the at-risk student is necessary for early intervention.",
+            "bibliographicdatabase":"PubMed",
+            "dcterms:identifier":"29200044",
+            "dcterms:language":"eng",
+            "frbr:partOf":{  
+               "@type":"JournalIssue",
+               "frbr:partOf":{  
+                  "@type":"JournalVolume",
+                  "frbr:partOf":{  
+                     "@type":"Journal",
+                     "dcterms:title":"Journal of addictions nursing",
+                     "prism:issn":"1548-7148"
+                  },
+                  "prism:volume":"28"
+               },
+               "prism:coverDate":"2017",
+               "prism:coverDisplayDate":"2017 Oct/Dec",
+               "prism:issueIdentifier":"4"
+            },
+            "hasPublicationYear":{  
+               "@type":"xsd:gYear",
+               "@value":"2017"
+            },
+            "hasURL":{  
+               "@type":"xsd:anyURI",
+               "@value":"/record/pubmed/29200044"
+            },
+            "hdas:publicationtypes":[  
+               {  
+                  "@type":"Journal Article"
+               }
+            ],
+            "hdas:publisherlocation":"United States",
+            "prism:doi":"10.1097/JAN.0000000000000193",
+            "prism:endingPage":"187",
+            "prism:startingPage":"179"
+         }
+      },
+      {  
+         "@id":"29198856",
+         "@type":"ResearchPaper",
+         "dcterms:creator":[  
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Isobe",
+               "foaf:givenName":"Takashi",
+               "foaf:name":"Isobe T",
+               "foaf:organization":"",
+               "hdas:initials":"T"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Ohkawara",
+               "foaf:givenName":"Susumu",
+               "foaf:name":"Ohkawara S",
+               "foaf:organization":"",
+               "hdas:initials":"S"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Ochi",
+               "foaf:givenName":"Sadayuki",
+               "foaf:name":"Ochi S",
+               "foaf:organization":"",
+               "hdas:initials":"S"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Tanaka-Kagawa",
+               "foaf:givenName":"Toshiko",
+               "foaf:name":"Tanaka-Kagawa T",
+               "foaf:organization":"",
+               "hdas:initials":"T"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Jinno",
+               "foaf:givenName":"Hideto",
+               "foaf:name":"Jinno H",
+               "foaf:organization":"",
+               "hdas:initials":"H"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Hanioka",
+               "foaf:givenName":"Nobumitsu",
+               "foaf:name":"Hanioka N",
+               "foaf:organization":"",
+               "hdas:initials":"N"
+            }
+         ],
+         "dcterms:title":"Naringenin glucuronidation in liver and intestine microsomes of humans, monkeys, rats, and mice.",
+         "frbr:realization":{  
+            "@id":null,
+            "@type":"JournalArticle",
+            "abstract":"Naringenin, a flavanone found in citrus fruits, is mainly metabolized into glucuronide(s) by UDP-glucuronosyltransferase (UGT) enzymes in mammals. In the present study, the glucuronidation of naringenin in the liver and intestine microsomes of humans, monkeys, rats, and mice was examined. The kinetics of 7-glucuronidation in human liver and intestine microsomes followed the Michaelis-Menten model. Kinetics in mouse liver and intestine microsomes also followed the Michaelis-Menten model, whereas those in monkey and rat liver microsomes fit the biphasic model. Kinetics in monkey and rat intestine microsomes fit the Michaelis-Menten and substrate inhibition models, respectively. CLint values were mice > monkeys > rats > humans for liver microsomes, and mice > rats > monkeys > humans for intestine microsomes. In 4´-glucuronidation, activities in human liver microsomes and monkey liver and intestine microsomes were negligible or very low. Kinetics in rat and mouse liver microsomes followed the biphasic and Michaelis-Menten models, respectively. CLint values were rats > mice for liver microsomes, and rats > mice > humans for intestine microsomes. These results suggest that the metabolic abilities and regioselectivity of UGT enzymes toward naringenin in the liver and intestines generally differ between primates and rodents.",
+            "bibliographicdatabase":"PubMed",
+            "dcterms:identifier":"29198856",
+            "dcterms:language":"eng",
+            "frbr:partOf":{  
+               "@type":"JournalIssue",
+               "frbr:partOf":{  
+                  "@type":"JournalVolume",
+                  "frbr:partOf":{  
+                     "@type":"Journal",
+                     "dcterms:title":"Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+                     "prism:issn":"1873-6351"
+                  }
+               },
+               "prism:coverDate":"2017-11-30"
+            },
+            "hasPublicationYear":{  
+               "@type":"xsd:gYear",
+               "@value":"2017"
+            },
+            "hasURL":{  
+               "@type":"xsd:anyURI",
+               "@value":"/record/pubmed/29198856"
+            },
+            "hdas:publicationtypes":[  
+               {  
+                  "@type":"Journal Article"
+               }
+            ],
+            "hdas:publisherlocation":"England",
+            "prism:doi":"10.1016/j.fct.2017.11.057",
+            "prism:publicationDate":{  
+               "@type":"xsd:gYearMonth",
+               "@value":"2017-11"
+            }
+         },
+         "hasSubjectTerm":[  
+            {  
+               "@id":"Glucuronidation",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Intestine microsome",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Liver microsome",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Naringenin",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"UDP-Glucuronosyltransferase (UGT)",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            }
+         ]
+      },
+      {  
+         "@id":"29198728",
+         "@type":"ResearchPaper",
+         "dcterms:creator":[  
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Abe",
+               "foaf:givenName":"Jun",
+               "foaf:name":"Abe J",
+               "foaf:organization":"",
+               "hdas:initials":"J"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Isobe",
+               "foaf:givenName":"Naohiko",
+               "foaf:name":"Isobe N",
+               "foaf:organization":"",
+               "hdas:initials":"N"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Mikata",
+               "foaf:givenName":"Kazuki",
+               "foaf:name":"Mikata K",
+               "foaf:organization":"",
+               "hdas:initials":"K"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Nagahori",
+               "foaf:givenName":"Hirohisa",
+               "foaf:name":"Nagahori H",
+               "foaf:organization":"",
+               "hdas:initials":"H"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Naito",
+               "foaf:givenName":"Yoshikazu",
+               "foaf:name":"Naito Y",
+               "foaf:organization":"",
+               "hdas:initials":"Y"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Saji",
+               "foaf:givenName":"Hideo",
+               "foaf:name":"Saji H",
+               "foaf:organization":"",
+               "hdas:initials":"H"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Ono",
+               "foaf:givenName":"Masahiro",
+               "foaf:name":"Ono M",
+               "foaf:organization":"",
+               "hdas:initials":"M"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Kawamura",
+               "foaf:givenName":"Satoshi",
+               "foaf:name":"Kawamura S",
+               "foaf:organization":"",
+               "hdas:initials":"S"
+            }
+         ],
+         "dcterms:title":"Flumioxazin metabolism in pregnant animals and cell-based protoporphyrinogen IX oxidase (PPO) inhibition assay of fetal metabolites in various animal species to elucidate the mechanism of the rat-specific developmental toxicity.",
+         "frbr:realization":{  
+            "@id":null,
+            "@type":"JournalArticle",
+            "abstract":"Flumioxazin, an N-phenylimide herbicide, inhibits protoporphyrinogen oxidase (PPO), a key enzyme in heme biosynthesis in mammals, and causes rat-specific developmental toxicity. The mechanism has mainly been clarified, but no research has yet focused on the contribution of its metabolites. We therefore conducted in vivo metabolism studies in pregnant rats and rabbits, and found 6 major known metabolites in excreta. There was no major rat-specific metabolite. The most abundant component in rat fetuses was APF, followed by flumioxazin and 5 identified metabolites. The concentrations of flumioxazin and these metabolites in fetuses were lower in rabbits than in rats. In vitro PPO inhibition assays with rat and human liver mitochondria showed that flumioxazin is a more potent PPO inhibitor than the metabolites. There were no species differences in relative intensity of PPO inhibition among flumioxazin and these metabolites. Based on the results of these in vivo and in vitro experiments, we concluded that flumioxazin is the causal substance of the rat-specific developmental toxicity. As a more reliable test system for research on in vitro PPO inhibition, cell-based assays with rat, rabbit, monkey, and human hepatocytes were performed. The results were consistent with those of the mitochondrial assays, and rats were more sensitive to PPO inhibition by flumioxazin than humans, while rabbits and monkeys were almost insensitive. From these results, the species difference in the developmental toxicity was concluded to be due to the difference in sensitivity of PPO to flumioxazin, and rats were confirmed to be the most sensitive of these species.",
+            "bibliographicdatabase":"PubMed",
+            "dcterms:identifier":"29198728",
+            "dcterms:language":"eng",
+            "frbr:partOf":{  
+               "@type":"JournalIssue",
+               "frbr:partOf":{  
+                  "@type":"JournalVolume",
+                  "frbr:partOf":{  
+                     "@type":"Journal",
+                     "dcterms:title":"Toxicology and applied pharmacology",
+                     "prism:issn":"1096-0333"
+                  }
+               },
+               "prism:coverDate":"2017-11-30"
+            },
+            "hasPublicationYear":{  
+               "@type":"xsd:gYear",
+               "@value":"2017"
+            },
+            "hasURL":{  
+               "@type":"xsd:anyURI",
+               "@value":"/record/pubmed/29198728"
+            },
+            "hdas:publicationtypes":[  
+               {  
+                  "@type":"Journal Article"
+               }
+            ],
+            "hdas:publisherlocation":"United States",
+            "prism:doi":"10.1016/j.taap.2017.11.028",
+            "prism:publicationDate":{  
+               "@type":"xsd:gYearMonth",
+               "@value":"2017-11"
+            }
+         },
+         "hasSubjectTerm":[  
+            {  
+               "@id":"Flumioxazin",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Placental transfer",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Protoporphyrinogen oxidase (PPO)",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Species differences",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Sumisoya",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Teratogenicity",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            }
+         ]
+      },
+      {  
+         "@id":"29197713",
+         "@type":"ResearchPaper",
+         "dcterms:creator":[  
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Ishida",
+               "foaf:givenName":"Natsumi",
+               "foaf:name":"Ishida N",
+               "foaf:organization":"",
+               "hdas:initials":"N"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Sakurada",
+               "foaf:givenName":"Makoto",
+               "foaf:name":"Sakurada M",
+               "foaf:organization":"",
+               "hdas:initials":"M"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Kusunoki",
+               "foaf:givenName":"Hiroshi",
+               "foaf:name":"Kusunoki H",
+               "foaf:organization":"",
+               "hdas:initials":"H"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Ueno",
+               "foaf:givenName":"Yasuhiro",
+               "foaf:name":"Ueno Y",
+               "foaf:organization":"",
+               "hdas:initials":"Y"
+            }
+         ],
+         "dcterms:title":"Development of a simultaneous identification method for 13 animal species using two multiplex real-time PCR assays and melting curve analysis.",
+         "frbr:realization":{  
+            "@id":null,
+            "@type":"JournalArticle",
+            "abstract":"We developed a simple and rapid method for animal species identification in the forensic science field based on mitochondrial DNA using two multiplex real-time PCRs and analysis of the resultant SYBR Green I melting curves. This method was designed to identify nine domestic animals simultaneously (dog, cat, rabbit, cattle, pig, chicken, goat, sheep and horse) and four wild animals (deer, raccoon-dog, monkey and bear) by comparing the different melting temperatures of the amplicons produced from samples originating from each species. For this analysis, we targeted various mitochondrial genes, including those encoding cytochrome b (cytb), NADH dehydrogenase 5 (ND5), cytochrome c oxidase 3 (COX3), tRNA-ND5, and tRNA-ATP synthase 8 (ATP8). For practical applications, this study presents a validation of this assay including its specificity, sensitivity and robustness. The limits of detection in the multiplex reactions were 10 pg for eight of the nine animals, excluding horse (1 pg for horse). The method was able to correctly identify the animal species from artificial forensic samples including blood stains, saliva, hair and bone, and samples digested in artificial gastric fluid, and for 17 forensic casework samples. The data from the multiplex real-time PCR assays are obtainable only 30 min after DNA extraction of the samples, making the assays useful for screening samples containing DNA from unknown animal origin in the forensic field.",
+            "bibliographicdatabase":"PubMed",
+            "dcterms:identifier":"29197713",
+            "dcterms:language":"eng",
+            "frbr:partOf":{  
+               "@type":"JournalIssue",
+               "frbr:partOf":{  
+                  "@type":"JournalVolume",
+                  "frbr:partOf":{  
+                     "@type":"Journal",
+                     "dcterms:title":"Legal medicine (Tokyo, Japan)",
+                     "prism:issn":"1873-4162"
+                  },
+                  "prism:volume":"30"
+               },
+               "prism:coverDate":"2017-11-26"
+            },
+            "hasPublicationYear":{  
+               "@type":"xsd:gYear",
+               "@value":"2017"
+            },
+            "hasURL":{  
+               "@type":"xsd:anyURI",
+               "@value":"/record/pubmed/29197713"
+            },
+            "hdas:publicationtypes":[  
+               {  
+                  "@type":"Journal Article"
+               }
+            ],
+            "hdas:publisherlocation":"Ireland",
+            "prism:doi":"10.1016/j.legalmed.2017.11.007",
+            "prism:endingPage":"71",
+            "prism:publicationDate":{  
+               "@type":"xsd:gYearMonth",
+               "@value":"2017-11"
+            },
+            "prism:startingPage":"64"
+         },
+         "hasSubjectTerm":[  
+            {  
+               "@id":"Animal identification",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Forensic samples",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Melting curves",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Mitochondrial DNA",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Multiplex real-time PCR",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            }
+         ]
+      },
+      {  
+         "@id":"29197294",
+         "@type":"ResearchPaper",
+         "dcterms:creator":[  
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Miranda",
+               "foaf:givenName":"S A",
+               "foaf:name":"Miranda SA",
+               "foaf:organization":"",
+               "hdas:initials":"SA"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Leão",
+               "foaf:givenName":"D L",
+               "foaf:name":"Leão DL",
+               "foaf:organization":"",
+               "hdas:initials":"DL"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Oliveira",
+               "foaf:givenName":"K G",
+               "foaf:name":"Oliveira KG",
+               "foaf:organization":"",
+               "hdas:initials":"KG"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Sodré",
+               "foaf:givenName":"I S",
+               "foaf:name":"Sodré IS",
+               "foaf:organization":"",
+               "hdas:initials":"IS"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Domingues",
+               "foaf:givenName":"S F S",
+               "foaf:name":"Domingues SFS",
+               "foaf:organization":"",
+               "hdas:initials":"SFS"
+            }
+         ],
+         "dcterms:title":"Gestational ultrasonography and Dopplerfluxometry in capuchin monkeys (Sapajus apella) zoometric.",
+         "frbr:realization":{  
+            "@id":null,
+            "@type":"JournalArticle",
+            "abstract":"The objectives of the current study were as follows: 1) to evaluate blood flow in the uterine (UA) and umbilical (Uma) arteries in pregnant capuchin monkeys by measuring the resistive index (RI) and pulsatility index (PI); 2) to determine the presence or absence of the early diastolic notch and diastolic flow in the UA and Uma flow waveforms, respectively; 3) to perform conceptus echobiometry for fetal growth assessment during pregnancy; 4) to describe the moment that the fetal organs were initially observed; and 5) to determine when the diagnosis of fetal gender is possible. Seven healthy, sexually mature female Sapajus apella were examined in Weeks -20 to -1 before whelping (whelping Week 0). Triplex Doppler was used to assess the blood flow and fetal heart rate, and B-mode ultrasonography was used to assess the fetal organs and conceptus measurements, including the gestational sac latero-lateral longitudinal (LLL) and latero-lateral transversal (LLT), the crown rump length (CRL), biparietal diameter (BPD), occipito-frontal diameter (OFD), head circumference (HC), abdominal circumference (AC), femur length (FL) and fetal organ. All the pregnancies ended with a normal whelping and the birth of a live newborn. Prior to whelping, all conceptus dimensions increased significantly, whereas the RI and PI of both the UA and Uma decreased significantly. For the UA, the RI and PI were (mean ± SEM) 0.835 ± 0.017 and 2.157 ± 0.129, 0.808 ± 0.008 and 1.920 ± 0.041, and 0.761 ± 0.006 and 1.759 ± 0.036 on periods -3, -2 and -1, respectively. For the Uma, the RI and PI were 0.97 ± 0.01 and 2.50 ± 0.02 at Week -17 and were 0.64 ± 0.02 and 0.98 ± 0.04 at Week -1, respectively. The complete disappearance of the early diastolic notch in the UA, and the complete appearance of diastolic flow in the Uma occurred on Week -1 and Week -11, respectively. Linear regression analyses regarding the relationship of the weeks before whelping (WBW) with the conceptus parameters were as follows: CRL = 16.93 + 0.93 WBW and FL = 3.62 + 0.22 WBW (R2 = 0.98, P < 0.0001); AC = 13.46 + 0.67 WBW (R2 = 0.96, P < 0.0001); BPD = 4.46 + 0.20 WBW (R2 = 0.95, P < 0.0001); LLL = 11.46 + 0.45 WBW, LLT = 9.52 + 0.38 WBW and HC = 16.68 + 0.80 WBW (R2 = 0.92, P < 0.0001); Uma RI = 0.64-0.02 WBW and PI = 0.79-0.11 WBW (R2 = 0.90, P < 0.0001); and OFD = 5.84 + 0.27 WBW (R2 = 0.86, P < 0.0001). The authors concluded that for fetal echobiometry UA and Uma perfusion were important endpoints to assess fetal vitality in the capuchin monkey. Moreover, it was possible to describe the moment when the organs were visualized and perform sexing.",
+            "bibliographicdatabase":"PubMed",
+            "dcterms:identifier":"29197294",
+            "dcterms:language":"eng",
+            "frbr:partOf":{  
+               "@type":"JournalIssue",
+               "frbr:partOf":{  
+                  "@type":"JournalVolume",
+                  "frbr:partOf":{  
+                     "@type":"Journal",
+                     "dcterms:title":"Theriogenology",
+                     "prism:issn":"1879-3231"
+                  },
+                  "prism:volume":"108"
+               },
+               "prism:coverDate":"2017-11-26"
+            },
+            "hasPublicationYear":{  
+               "@type":"xsd:gYear",
+               "@value":"2017"
+            },
+            "hasURL":{  
+               "@type":"xsd:anyURI",
+               "@value":"/record/pubmed/29197294"
+            },
+            "hdas:publicationtypes":[  
+               {  
+                  "@type":"Journal Article"
+               }
+            ],
+            "hdas:publisherlocation":"United States",
+            "prism:doi":"10.1016/j.theriogenology.2017.11.023",
+            "prism:endingPage":"73",
+            "prism:publicationDate":{  
+               "@type":"xsd:gYearMonth",
+               "@value":"2017-11"
+            },
+            "prism:startingPage":"63"
+         },
+         "hasSubjectTerm":[  
+            {  
+               "@id":"Blood flow",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Fetal development",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Fetal sexing",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Organogenesis",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Ultrasonography",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            }
+         ]
+      },
+      {  
+         "@id":"29196909",
+         "@type":"ResearchPaper",
+         "dcterms:creator":[  
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Hoffman",
+               "foaf:givenName":"Megan L",
+               "foaf:name":"Hoffman ML",
+               "foaf:organization":"",
+               "hdas:initials":"ML"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Beran",
+               "foaf:givenName":"Michael J",
+               "foaf:name":"Beran MJ",
+               "foaf:organization":"",
+               "hdas:initials":"MJ"
+            },
+            {  
+               "@id":"",
+               "@type":"foaf:Person",
+               "foaf:familyName":"Washburn",
+               "foaf:givenName":"David A",
+               "foaf:name":"Washburn DA",
+               "foaf:organization":"",
+               "hdas:initials":"DA"
+            }
+         ],
+         "dcterms:title":"Rhesus monkeys (Macaca mulatta) remember agency information from past events and integrate this knowledge with spatial and temporal features in working memory.",
+         "frbr:realization":{  
+            "@id":null,
+            "@type":"JournalArticle",
+            "abstract":"The purpose of the present study was to examine whether rhesus monkeys remember information about their own agency-along with spatial, temporal and contextual properties-from a previously experienced event. In Experiment 1, rhesus monkeys (n = 4) used symbols to reliably indicate whether they had performed or observed an event on a computer screen. In Experiment 2, naïve and experienced monkeys (n = 8) reported agency information when stringent controls for perceptual and proprioceptive cues were included. In Experiment 3, five of the monkeys completed a task in which they reported agency information along with spatial and temporal features of events. Two monkeys performed this agency discrimination when they could not anticipate which memory test they would receive. There was also evidence that these features were integrated in memory. Implications of this research are discussed in relation to working memory, episodic memory and self-awareness in nonhuman animals.",
+            "bibliographicdatabase":"PubMed",
+            "dcterms:identifier":"29196909",
+            "dcterms:language":"eng",
+            "frbr:partOf":{  
+               "@type":"JournalIssue",
+               "frbr:partOf":{  
+                  "@type":"JournalVolume",
+                  "frbr:partOf":{  
+                     "@type":"Journal",
+                     "dcterms:title":"Animal cognition",
+                     "prism:issn":"1435-9456"
+                  }
+               },
+               "prism:coverDate":"2017-12-1"
+            },
+            "hasPublicationYear":{  
+               "@type":"xsd:gYear",
+               "@value":"2017"
+            },
+            "hasURL":{  
+               "@type":"xsd:anyURI",
+               "@value":"/record/pubmed/29196909"
+            },
+            "hdas:publicationtypes":[  
+               {  
+                  "@type":"Journal Article"
+               }
+            ],
+            "hdas:publisherlocation":"Germany",
+            "prism:doi":"10.1007/s10071-017-1147-x",
+            "prism:publicationDate":{  
+               "@type":"xsd:gYearMonth",
+               "@value":"2017-12"
+            }
+         },
+         "hasSubjectTerm":[  
+            {  
+               "@id":"Agency",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Episodic memory",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Rhesus monkey",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Self-awareness",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"What–where–when memory",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            },
+            {  
+               "@id":"Working memory",
+               "@type":"SubjectTerm",
+               "hdas:subjecttermtype":"minor"
+            }
+         ]
+      }
+   ],
+   "resultitems":10,
+   "totalitems":16860583,
+   "view":{  
+      "@id":"1",
+      "@type":"PartialCollectionView",
+      "first":"1",
+      "last":"1686059",
+      "next":"2"
+   }
+}

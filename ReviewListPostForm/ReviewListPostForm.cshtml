@@ -1,0 +1,49 @@
+@model ReviewListPostFormHypermedia
+
+
+@if (Model.CanPost())
+{
+    <form action="@Model.ReviewListLink.Id" method="POST" enctype="application/x-www-form-urlencoded">
+
+	    <div class="form-group row">
+		    <div class="col-12">
+			    <label for="name"><strong>Name</strong></label>
+			    <input type="text" class="form-control" id="name" name="name" pattern="\W*\S.*\S\W*" placeholder="Enter a name" required autocomplete="off">
+		    </div>
+	    </div>
+
+	    @{
+		    var reviewtypedata = Model.GetPost().GetProperty("reviewtype").Data;
+	    }
+
+	    <div class="form-group row">
+		    <div class="col-12">
+			    <label for="reviewtype"><strong>Review type</strong></label>
+			    <select name="reviewtype" id="reviewtype" class="form-control" required>
+				    @foreach (var item in reviewtypedata)
+				    {
+					    <option value="@(item.Id == "0" ? "" : item.Id)">@(item.Title == "" ? "-- Select a review type --" : item.Title)</option>
+				    }
+			    </select>
+		    </div>
+	    </div>
+
+
+	    <button type="submit" class="btn btn-primary input-sm">Create review</button>
+  
+                        
+
+        <div class="form-group row">
+            <div class="col-10">
+                @Html.Partial("ErrorMessages", @Model)
+            </div>
+        </div>
+    
+    </form>
+}
+
+
+@if (Model.HasReviewLink())
+{
+    <p><a href="@Model.ReviewLink.Id" data-force-location>@Model.ReviewLink.Title</a></p>
+}

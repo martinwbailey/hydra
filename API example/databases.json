@@ -1,0 +1,74 @@
+{  
+   @context: {
+		@vocab: "http://www.w3.org/ns/hydra/context.jsonld",
+		dcterms: "http://purl.org/dc/terms/"
+		},
+   "@id":"/databaselist",
+   "@type":"Collection",
+   "count":9,
+   "members":[  
+      {  
+         "@id":"AMED",
+         "dcterms:abstract":"The Allied and Complementary Medicine Database (AMED) is a unique bibliographic database produced by the Health Care Information Service of the British Library. It covers a selection of journals in complementary medicine, palliative care, and several professions allied to medicine. \n\nThe database covers the years from 1985 to present and is updated monthly. This database is supplied by Ovid. \n\nAMED is a copyright of the British Library Health Care Information Service 2001. All Rights Reserved.",
+         "dcterms:alternative":"Allied and Complementary Medicine 1985 to present",
+         "dcterms:description":"Allied health professions, complementary medicine",
+         "dcterms:title":"AMED"
+      },
+      {  
+         "@id":"BNI",
+         "dcterms:abstract":"The British Nursing Index (BNI) is a bibliographic database that indexes articles from the most popular English language nursing journals published primarily in the UK. BNI is a comprehensive index covering all aspects of nursing, midwifery and community healthcare from 1985 to the present, and is updated monthly. This database is supplied by ProQuest.",
+         "dcterms:alternative":"British Nursing Index 1992 to present",
+         "dcterms:description":"Nursing, midwifery, health visitors",
+         "dcterms:title":"BNI"
+      },
+      {  
+         "@id":"CINAHL",
+         "dcterms:abstract":"The CinahlÂ® database is a comprehensive and authoritative source of information for nurses, allied health professionals, and others interested in health care. \n\nCinahl covers all aspects of nursing and allied health disciplines. Seventeen allied health disciplines are covered: cardiopulmonary technology, dental hygiene, emergency services, medical/laboratory technology, the medical assisting, athletic training, occupational therapy, optometry, physical therapy and rehabilitation, the physician's assistant, radiologic technology, respiratory therapy, social service in health care, speech-language pathology, nutrition and dietetics, audiology and surgical technology. \n\nJournals from biomedicine, alternative therapy, health sciences, librarianship, health promotion/education, and consumer health are also scanned for relevant articles.\n\nCited references from nursing and allied health journals have been included as Cinahl has received permission - starting in 1994. Cinahl's annually updated thesaurus is adapted from the US National Library of Medicine's Medical Subject Headings (MeSH). There are over 4000 unique nursing and allied health subject headings.",
+         "dcterms:alternative":"Cumulative Index to Nursing and Allied Health Literature\n1981 to present",
+         "dcterms:description":"Nursing, allied health professions",
+         "dcterms:title":"CINAHL"
+      },
+      {  
+         "@id":"EMBASE",
+         "dcterms:abstract":"The EMBASE database is a member of the EMBASE family that consists of three separate databases: the Excerpta Medica Database (EMBASE), EMBASE Drugs and Pharmacology (EMDP), and EMBASE Psychiatry (EMPS). Formally, EMDP, and EMPS are considered to be subsets of EMBASE. This field guide, although very similar in content to those of EMDP and EMPS, provides scope of information specific to the EMBASE database.\n\nThe Excerpta Medica database (EMBASE) produced by Elsevier, is a major biomedical and pharmaceutical database indexing over 3,500 international journals in the following fields: drug research, pharmacology, pharmaceutics, toxicology, clinical and experimental human medicine, health policy and management, public health, occupational health, environmental health, drug dependence and abuse, psychiatry, forensic medicine, and biomedical engineering/instrumentation. There is selective coverage for nursing, dentistry, veterinary medicine, psychology, and alternative medicine. EMBASE is one of the most widely used biomedical and pharmaceutical databases because of its currency and in-depth indexing. Frequent updates allow access to the latest medical and pharmacological trends. Approximately 375,000 records are added yearly.",
+         "dcterms:alternative":"Excerpta Medica Database\n1974 to present",
+         "dcterms:description":"Drugs and pharmacology, other aspects of human medicine",
+         "dcterms:title":"EMBASE"
+      },
+      {  
+         "@id":"HBE",
+         "dcterms:abstract":"This database provides comprehensive journal content detailing all aspects of health care administration and other non-clinical aspects of health care institution management. Topics covered include hospital management, hospital administration, marketing, human resources, computer technology, facilities management and insurance. Health Businessâ„¢ Elite contains full text content from more than 480 journals such as HHN: Hospitals and Health Networks, Harvard Business Review (available back to 1922), Health Facilities Management, Health Management Technology, Healthcare Financial Management, Marketing Health Services, Materials Management in Health Care, Modern Healthcare, and many more. \n\nHealth Business Elite is supplied by Ebsco. \n\nSubject coverage includes: \n\nHospital Management\nHospital Administration\nMarketing\nHuman Resources\nComputer Technology\nFacilities Management\nInsurance",
+         "dcterms:alternative":"Health Business Elite 1922 to present",
+         "dcterms:description":"Healthcare administration, institution management",
+         "dcterms:title":"HBE"
+      },
+      {  
+         "@id":"HMIC",
+         "dcterms:abstract":"The Health Management Information Consortium (HMIC) database is a compilation of data from two sources, the Department of Health's Library and Information Services and King's Fund Information and Library Service. Brief summaries about the types of data that these two sources contribute to HMIC are included below.\n\nDH Data is the database of the Department of Health's Library and Information Services and contains in excess of 174,000 records relating to health and social care management information. Coverage includes official publications, journal articles and grey literature on: health service policy, management and administration, with an emphasis on the British National Health Service; the quality of health services including hospitals, nursing, primary care and public health; the planning, design, construction and maintenance of health service buildings; occupational health; control and regulation of medicines; medical equipment and supplies; and social care and personal social services. The majority of records are from 1983 onwards, although coverage of departmental materials dates back to 1919. Over a quarter of the records have abstracts. \n\nThe King's Fund Information and Library Service database holds records of the material in the library of the King's Fund Information and Library Service, an independent health charity working to develop and improve the management of health and social care services. This library is open to the public. Its database contains over 70,000 records (1979 to date), mostly with a UK focus, on health management and services, social care, service development, and NHS organisation and administration. Records include books, pamphlets, government reports, abstracts of journal articles, and a wide range of grey literature.",
+         "dcterms:alternative":"Health Management Information Consortium 1979 to present",
+         "dcterms:description":"Records from Kingâ€™s Fund and Department of Health",
+         "dcterms:title":"HMIC"
+      },
+      {  
+         "@id":"Medline",
+         "dcterms:abstract":"Medline is a general medical database produced by the U.S. National Library of Medicine (hereafter, NLM). The database contains millions of citations, derived from thousands of biomedical and life science journals.\nBroadly, the subject areas covered are:\n- Allied health specialties\n- Dentistry\n- Nursing\n- Medicine\n- Pre-clinical sciences\n- Some topics within veterinary medicine\nMEDLINE (TM) is also the primary source of global information from international literature on biomedicine.\nThe database contains a broad range of medical topics relating to research, clinical practice, administration, policy issues, and health care services. Produced by the U.S. National Library of Medicine, MEDLINE contains all records published in Index Medicus and since 2002, most citations previously included in separate NLM specialty databases such as SPACELINE and HISTLINE. Subject content includes anatomy; communication disorders; microbiology; paramedical professions; pathology; physiology; psychiatry; toxicology; dentistry; parasitology; reproductive biology; epidemiology; gene therapy; surgical and pharmaceutical intervention; nursing practice; ethical and legal issues; institutional operations; laboratory techniques and procedures; diagnosis and management; clinical research trials and experimental treatment protocols; legislation and regulation; allied health specialties; continuing education; investigational drugs and new drug uses, and some veterinary medicine.\nSource: ProQuest Â© - About MEDLINE (Â©)\nUpdate Frequency: Weekly\nThe Proquest platform does not support a list of stopwords.\nA publication type limit is not yet available but you you can use the publication type field to limit your results to a particular kind of publication:\nAddresses\nAutobiography\nBibliography\nBiography\nCase Reports\nClassical Article\nClinical Conference\nClinical Trial\nClinical Trial, Phase I\nClinical Trial, Phase Ii\nClinical Trial, Phase Iii\nClinical Trial, Phase Iv\nComment\nComparative Study\nCongresses\nConsensus Development Conference\nConsensus Development Conference, Nih\nControlled Clinical Trial\nCorrected And Republished Article\nDataset\nDictionary\nDirectory\nDuplicate Publication\nEditorial\nEnglish Abstract\nEvaluation Studies\nFestschrift\nGovernment Publications\nGuideline\nHistorical Article\nInteractive Tutorial\nInterview\nIntroductory Journal Article\nJournal Article\nLectures\nLegal Cases\nLegislation\nLetter\nMeta-analysis\nMulticenter Study\nNews\nNewspaper Article\nObservational Study\nOverall\nPatient Education Handout\nPeriodical Index\nPersonal Narratives\nPortraits\nPractice Guideline\nPragmatic Clinical Trial\nPublished Erratum\nRandomized Controlled Trial\nResearch Support, American Recovery And Reinvestment Act\nResearch Support, N.i.h., Extramural\nResearch Support, N.i.h., Intramural\nResearch Support, Non-u.s. Gov't\nResearch Support, U.s. Gov't, Non-p.h.s.\nResearch Support, U.s. Gov't, P.h.s.\nRetracted Publication\nRetraction Of Publication\nReview\nScientific Integrity Review\nTechnical Report\nTwin Study\nValidation Studies\nVideo-audio Media",
+         "dcterms:alternative":"1946 to present",
+         "dcterms:description":"General medical database",
+         "dcterms:title":"Medline"
+      },
+      {  
+         "@id":"PsycINFO",
+         "dcterms:abstract":"PsycINFO provides access to international literature in psychology and related disciplines. Unrivaled in its depth of psychological coverage and respected worldwide for its high quality, the database is enriched with literature from an array of disciplines related to psychology such as psychiatry, education, business, medicine, nursing, pharmacology, law, linguistics, and social work. Nearly all records contain non-evaluative summaries, and all records from 1967 to the present are indexed using the Thesaurus of Psychological Index Terms.\nPractitioners, researchers, and students working in all areas of psychology, the behavioral sciences, and other related disciplines. PsycINFO includes psychological research and its applications; the database is of prime relevance to many industries and research establishments worldwide. The sources include over 1,800 professional journals, chapters, books, reports, theses and dissertations, published internationally. Additionally, there are more than 8 million cited references in 185,000 journal articles, books, and book chapters. \n(Source: Proquest Â© - About PsycINFO Â©)\nThis includes information on drug and behavioural therapy, treatment of disease, drug addiction, developmental psychology, and educational psychology, as well as the psychological aspects of such areas as linguistics, social processes, pharmacology, physiology, nursing, education, anthropology, business and law. Subject searching is facilitated by means of PsycINFO's Psychological Index Terms and PSYC includes an online thesaurus which allows easy access to these terms.",
+         "dcterms:alternative":"1806 to present",
+         "dcterms:description":"Psychology and allied fields",
+         "dcterms:title":"PsycINFO"
+      },
+      {  
+         "@id":"PubMed",
+         "dcterms:abstract":"\n      PubMed comprises over 25 million citations for biomedical literature from MEDLINE, life science journals, and online books. PubMed citations and abstracts include the fields of biomedicine and health, covering portions of the life sciences, behavioral sciences, chemical sciences, and bioengineering. PubMed also provides access to additional relevant web sites and links to the other NCBI molecular biology resources.\n\n      PubMed is a free resource that is developed and maintained by the National Center for Biotechnology Information (NCBI), at the U.S. National Library of Medicine (NLM), located at the National Institutes of Health (NIH).\n    ",
+         "dcterms:alternative":"Medline from PubMed 1946 to present",
+         "dcterms:description":"General medical database",
+         "dcterms:title":"PubMed"
+      }
+   ]
+}

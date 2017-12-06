@@ -1,0 +1,157 @@
+
+{
+  "@context": "http://www.w3.org/ns/hydra/context.jsonld",
+  "@id": "/search",
+  "@type": "collection",
+  "title": "Search",
+  "description": "Search endpoint",
+  "entrypoint": "/",
+  "hydra:operation": {
+    "method": "POST",
+    "expects": {
+      "@type": "Class",
+      "supportedProperty": [
+        {
+          "@type": "SupportedProperty",
+          "property": "term",
+          "required": true,
+          "readOnlyValue": true
+        },
+        {
+          "@type": "SupportedProperty",
+          "property": "database",
+          "required": true,
+          "readOnlyValue": true,
+          "range": "databases"
+        },
+        {
+          "@type": "SupportedProperty",
+          "property": "sharedfield",
+          "required": false,
+          "readOnlyValue": true
+        },
+        {
+          "@type": "SupportedProperty",
+          "property": "limit",
+          "required": false,
+          "readOnlyValue": true
+        },
+        {
+          "@type": "SupportedProperty",
+          "property": "pagesize",
+          "required": false,
+          "defaultValue": "25",
+          "readOnlyValue": true
+        },
+        {
+          "@type": "SupportedProperty",
+          "property": "pagenumber",
+          "required": false,
+          "defaultValue": "1",
+          "readOnlyValue": true
+        },
+        {
+          "@type": "SupportedProperty",
+          "property": "orderby",
+          "required": false,
+          "readOnlyValue": true,
+          "range": "orderfields"
+        },
+        {
+          "@type": "SupportedProperty",
+          "property": "fromyear",
+          "required": false,
+          "readOnlyValue": true
+        },
+        {
+          "@type": "SupportedProperty",
+          "property": "toyear",
+          "required": false,
+          "readOnlyValue": true
+        }
+      ]
+    }
+  },
+  "hdas:providerdatabase": {
+    "@id": "hdas:providerdatabase",
+    "@type": "Class",
+    "title": "Provider database",
+    "description": "Provider database",
+    "supportedProperty": [
+      {
+        "@type": "SupportedProperty",
+        "property": "value"
+      },
+      {
+        "@type": "SupportedProperty",
+        "property": "title"
+      }
+    ]
+  },
+  "hdas:searchlimit": {
+    "@id": "hdas:searchlimit",
+    "@type": "Class",
+    "title": "Search limit",
+    "description": "Common search limits",
+    "supportedProperty": [
+      {
+        "@type": "SupportedProperty",
+        "property": "values"
+      },
+      {
+        "@type": "SupportedProperty",
+        "property": "name"
+      }
+    ]
+  },
+  "databases": [
+    {
+      "@type": "hdas:providerdatabase",
+      "value": "amed"
+    },
+    {
+      "@type": "hdas:providerdatabase",
+      "value": "embase"
+    },
+    {
+      "@type": "hdas:providerdatabase",
+      "value": "hmic"
+    },
+    {
+      "@type": "hdas:providerdatabase",
+      "value": "bni"
+    },
+    {
+      "@type": "hdas:providerdatabase",
+      "value": "psycinfo"
+    },
+    {
+      "@type": "hdas:providerdatabase",
+      "value": "medline"
+    },
+    {
+      "@type": "hdas:providerdatabase",
+      "value": "cinahl"
+    },
+    {
+      "@type": "hdas:providerdatabase",
+      "value": "hbe"
+    },
+    {
+      "@type": "hdas:providerdatabase",
+      "value": "pubmed"
+    }
+  ],
+  "orderfields": [
+    {
+      "@type": "hdas:searchorderfield",
+      "value": "date",
+      "title": "Date"
+    },
+    {
+      "@type": "hdas:searchorderfield",
+      "value": "relevance",
+      "title": "Relevance"
+    }
+  ]
+}
