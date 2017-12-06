@@ -13,11 +13,11 @@ The following information is a result of using Hydra in anger, and is subject to
 
 #### Using Hydra as the primary content type for an API
 
-An example of using Hydra for a search api is contained in folder 'API example'. Users enter a search term, and choose a database to run the query against, the list available databases has its own resource at /databases.
+An example of using Hydra for a search api, written in F#, is contained in folder 'API example'. Users enter a search term, and choose a database to run the query against, the list available databases has its own resource at /databases.
 
-The SupporedProperty name 'databases' has a Range of 'databases'. I don't expose this to the client as a resolvale url to /databases, I assume this is an ommission on my part.
+The SupporedProperty name 'databases' has a Range of 'databases'. I don't expose this to the client as a resolvable  url to /databases, I assume this is an ommission on my part.
 
-Because all of these projects were not, publicly available anonymously, we could no use the publically hosted hydra-console. (We should have installed this locally)
+Because all of these projects were not publicly available anonymously, we did no use the hosted hydra-console. (We should have installed this locally)
 
 Examples of this are in the 'API example' folder
 
@@ -33,8 +33,8 @@ I could not find a convenient way of representing a range of data for a POST ope
   
 An example of this is in the 'ReviewListPostForm folder', it gives an example of the c# view model, the Razor view, the Hydra JSON output, and the associated HTML.
  
- 
 
+If I find the time, I would like to make my C# implementated Hydra driven framework openly available. There is a lack of concrete examples for C# developers to use as a starting point for their projects.
   
   
   
