@@ -1,11 +1,11 @@
 # hydra
 
 
-## This documention is limited to the use of hydra as the internal application representations for view models. The applications are primarary HTML applications, however since all the view models are Hydra compliant, then the entire application works has a JSON-LD interface for all operations by default when content negotiatating application/json. 
+### I have built pure Hydra api applications, plus used of hydra as the internal application representations for applications that use HTML as thier primary content type. Since all the view models are Hydra compliant, then the the HTML application all have a full JSON-LD interface for all operations by default when content negotiatating application/json. 
 
-This approach brings the hypermedia constratins further down into the application stack, and reduces apllication object to HTML impedience when rendering HTML. Forcing this RESTful constraint allows for better TDD.
+The approach of brining the hypermedia constraints further down into the application stack reduces impedience between application symatics and hypermededia symatics, ie when binding to HTML in view engines.
 
-## Using Hydra representations as the internal application view models
+#### Using Hydra representations as the internal application view models
 
 I tend to model internal view models to the Hydra hypermedia constraint, we then use this Hydra representation to map onto HTML, when content negotiation HTML.
 
