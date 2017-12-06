@@ -1,0 +1,45 @@
+
+
+
+    <form action="/reviewlist" method="POST" enctype="application/x-www-form-urlencoded">
+
+	    <div class="form-group row">
+		    <div class="col-12">
+			    <label for="name"><strong>Name</strong></label>
+			    <input type="text" class="form-control" id="name" name="name" pattern="\W*\S.*\S\W*" placeholder="Enter a name" required autocomplete="off">
+		    </div>
+	    </div>
+
+
+	    <div class="form-group row">
+		    <div class="col-12">
+			    <label for="reviewtype"><strong>Review type</strong></label>
+			    <select name="reviewtype" id="reviewtype" class="form-control" required>
+					    <option value="">-- Select a review type --</option>
+					    <option value="1">Association</option>
+					    <option value="2">Diagnostic</option>
+					    <option value="3">Intervention</option>
+					    <option value="4">Mixed-Methods</option>
+					    <option value="5">Non-Comparative</option>
+					    <option value="6">Prognostic</option>
+					    <option value="7">Qualitative</option>
+					    <option value="8">Other</option>
+			    </select>
+		    </div>
+	    </div>
+
+
+	    <button type="submit" class="btn btn-primary input-sm">Create review</button>
+  
+                        
+
+        <div class="form-group row">
+            <div class="col-10">
+                
+
+            </div>
+        </div>
+    
+    </form>
+
+
