@@ -2,7 +2,7 @@
 
 I have built pure Hydra api applications, plus used hydra as internal hypermedia representations for applications that use HTML as their primary content type. Since all the view models are Hydra compliant, then the the HTML applications all have a full JSON-LD interface for all operations by default when content negotiating application/json. Once I had 3 systems using the same API interface then integration between these systems because trivial.
 
-The approach of brining the hypermedia constraints further into the application stack reduces impedance between application semantics and hypermedia semantics. This is hugely advantagiosu when binding to HTML in view engines. 
+The approach of brining the hypermedia constraints further into the application stack reduces impedance between application semantics and hypermedia semantics. This is hugely advantageous when binding HTML in the view engines. 
 
 Another advantage is that since we are building Hydra representations internally, when generation HTML, we can check which operations are valid. This means that user permissions are resolved at the representation level, and the view engine can check, for example, is the POST operation exists, and it so render a HTML form as appropiate.
 
