@@ -2,6 +2,12 @@
 
 passthrough '/robots.txt'
 
+compile '/home.html' do
+  filter :erb
+  layout '/default.*'
+  write '/index.html'
+end
+
 compile '/**/*.html' do
   layout '/default.*'
 
