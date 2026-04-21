@@ -3,6 +3,7 @@ name: Publish docs site
 on:
   push:
     branches:
+      - docs
       - main
       - master
     paths:
