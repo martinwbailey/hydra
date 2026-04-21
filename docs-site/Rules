@@ -2,19 +2,13 @@
 
 passthrough '/robots.txt'
 
-compile '/home.html' do
-  filter :erb
-  layout '/default.*'
-  write '/index.html'
-end
-
 compile '/**/*.html' do
   layout '/default.*'
 
   if item.identifier =~ '**/index.*'
-    write '/docs' + item.identifier.to_s
+    write item.identifier.to_s
   else
-    write '/docs' + item.identifier.without_ext + '/index.html'
+    write item.identifier.without_ext + '/index.html'
   end
 end
 
